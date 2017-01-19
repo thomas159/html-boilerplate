@@ -450,50 +450,6 @@ template {
   display: none;
 }
 
-.button-wrap {
-  margin: 60px 0;
-  text-align: center;
-}
-
-.btn {
-  height: auto;
-  padding: 15px 70px 15px 20px;
-  border: 0;
-  margin: 0;
-  background: #E43B40 url("../../../assets/img/arrow.png") no-repeat 90% center;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-@media only screen and (min-width: 413px) and (max-width: 767px) {
-  .btn {
-    padding: 25px 70px 25px 20px;
-  }
-}
-@media only screen and (max-width: 412px) {
-  .btn {
-    padding: 25px 70px 25px 20px;
-  }
-}
-
-.btn:hover {
-  height: auto;
-  border: 0;
-  margin: 0;
-  background: #FF595E url("../../../assets/img/arrow.png") no-repeat 90% center;
-  cursor: pointer;
-  color: #fff;
-}
-
-.main {
-  -ms-flex: 1;
-      flex: 1;
-  position: relative;
-  min-height: 100vh;
-}
-
 /* Main Layout*/
 @media only screen and (max-width: 412px) {
   .gridxs--hide {
@@ -927,6 +883,13 @@ html {
 
 body {
   font: 400 1.4rem 'merriweather', sans-serif;
-  line-height: 2.4rem;
+  line-height: 2rem;
   color: #9b9b9b;
+}
+
+.main {
+  -ms-flex: 1;
+      flex: 1;
+  position: relative;
+  min-height: 100vh;
 }

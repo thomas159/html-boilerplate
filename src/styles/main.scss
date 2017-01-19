@@ -1,12 +1,15 @@
-// Fonts
-//Normalize
-@import "modules/normalize.scss";
-// Modules
-@import "modules/utility.scss";
-// styles
-// partials
-@import "partials/grid.scss";
+// Base
+@import "base/normalize.scss";
+@import "base/variables.scss";
+@import "base/mixins.scss";
+// Components
+@import "components/buttons.scss";
+// Layout
+@import "layout/grid.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/page.scss";
+// Pages
+@import "pages/home.scss";
 
 
-html { font-size: 62.5%; }
-body { font:400 1.4rem 'merriweather', sans-serif; line-height:2.4rem;  color: #9b9b9b; }
