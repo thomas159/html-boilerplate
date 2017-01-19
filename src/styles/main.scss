@@ -1,0 +1,12 @@
+// Fonts
+//Normalize
+@import "modules/normalize.scss";
+// Modules
+@import "modules/utility.scss";
+// styles
+// partials
+@import "partials/grid.scss";
+
+
+html { font-size: 62.5%; }
+body { font:400 1.4rem 'merriweather', sans-serif; line-height:2.4rem;  color: #9b9b9b; }
