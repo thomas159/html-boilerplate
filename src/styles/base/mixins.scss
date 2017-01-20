@@ -7,19 +7,19 @@
   }
 }
 
-@mixin small {
+@mixin sm {
   @media only screen and (min-width: $xs + 1) and (max-width: $small){
     @content;
   }
 }
 
-@mixin medium {
+@mixin md {
   @media only screen and (min-width: $small + 1) and (max-width: $medium) {
     @content;
   }
 }
 
-@mixin large {
+@mixin lg {
   @media only screen and (min-width: $medium +1) and (max-width: $large) {
     @content;
   }

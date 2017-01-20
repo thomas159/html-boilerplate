@@ -23,7 +23,7 @@
         padding: 10px;
     }
 }
-@include small {
+@include sm {
     .gridsm--hide{
         display: none;
     }.container {
@@ -67,7 +67,7 @@
         padding: 10px;
     }
 }
-@include large {
+@include lg {
     .gridlg--hide{
         display: none;
     } .container {
