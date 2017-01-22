@@ -463,13 +463,6 @@ template {
     padding: 0;
   }
 
-  .container-pad-mob {
-    position: relative;
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-
   .gridxs--fit > .cell {
     -ms-flex: 1;
         flex: 1;
@@ -495,24 +488,12 @@ template {
         flex: 0 0 25%;
   }
 
-  .gridxs--gutters > .cell {
+  .grid--gutters > .cell {
     padding: 10px;
-  }
-
-  .u-xs-1of6 {
-    width: 30% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
-
-  .u-xs-4of6 {
-    width: 70% !important;
-    -ms-flex: none !important;
-        flex: none !important;
   }
 }
 @media only screen and (min-width: 413px) and (max-width: 767px) {
-  .grid--hide {
+  .gridsm--hide {
     display: none;
   }
 
@@ -523,34 +504,27 @@ template {
     padding: 0;
   }
 
-  .container-pad-mob {
-    position: relative;
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-
-  .grid--fit > .cell {
+  .gridsm--fit > .cell {
     -ms-flex: 1;
         flex: 1;
   }
 
-  .grid--full > .cell {
+  .gridsm--full > .cell {
     -ms-flex: 0 0 100%;
         flex: 0 0 100%;
   }
 
-  .grid--1of2 > .cell {
+  .gridsm--1of2 > .cell {
     -ms-flex: 0 0 50%;
         flex: 0 0 50%;
   }
 
-  .grid--1of3 > .cell {
+  .gridsm--1of3 > .cell {
     -ms-flex: 0 0 33.3333%;
         flex: 0 0 33.3333%;
   }
 
-  .grid--1of4 > .cell {
+  .gridsm--1of4 > .cell {
     -ms-flex: 0 0 25%;
         flex: 0 0 25%;
   }
@@ -558,21 +532,9 @@ template {
   .grid--gutters > .cell {
     padding: 10px;
   }
-
-  .u-sm-1of6 {
-    width: 30% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
-
-  .u-sm-4of6 {
-    width: 70% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .gridmd--hide {
+  .gridms--hide {
     display: none;
   }
 
@@ -581,13 +543,6 @@ template {
     max-width: 964px;
     margin: 0 auto;
     padding: 0;
-  }
-
-  .container-pad-mob {
-    position: relative;
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 10px;
   }
 
   .gridmd--fit > .cell {
@@ -618,18 +573,6 @@ template {
   .grid--gutters > .cell {
     padding: 10px;
   }
-
-  .u-medium-1of6 {
-    width: 10% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
-
-  .u-medium-4of6 {
-    width: 90% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .gridlg--hide {
@@ -637,13 +580,6 @@ template {
   }
 
   .container {
-    position: relative;
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .container-pad-mob {
     position: relative;
     max-width: 964px;
     margin: 0 auto;
@@ -675,30 +611,8 @@ template {
         flex: 0 0 25%;
   }
 
-  .gridlg--1of5 > .cell {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-  }
-
-  .gridlg--1of6 > .cell {
-    -ms-flex: 0 0 16.6666666666%;
-        flex: 0 0 16.6666666666%;
-  }
-
   .grid--gutters > .cell {
     padding: 10px;
-  }
-
-  .u-large-1of6 {
-    width: 10% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
-
-  .u-large-4of6 {
-    width: 90% !important;
-    -ms-flex: none !important;
-        flex: none !important;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -707,13 +621,6 @@ template {
   }
 
   .container {
-    position: relative;
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .container-pad-mob {
     position: relative;
     max-width: 964px;
     margin: 0 auto;
@@ -745,41 +652,8 @@ template {
         flex: 0 0 25%;
   }
 
-  .gridxl--1of5 > .cell {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-  }
-
-  .gridxl--1of6 > .cell {
-    -ms-flex: 0 0 16.6666666666%;
-        flex: 0 0 16.6666666666%;
-  }
-
-  .gridxl--1of12 > .cell {
-    -ms-flex: 0 0 8.3333333333%;
-        flex: 0 0 8.3333333333%;
-  }
-
   .grid--gutters > .cell {
     padding: 10px;
-  }
-
-  .grid--gutters20 > .cell {
-    padding: 20px;
-  }
-
-  .u-xl-1of6 {
-    width: 10% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-  }
-
-  .u-xl-4of6 {
-    width: 90% !important;
-    -ms-flex: none !important;
-        flex: none !important;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 .grid {

@@ -19,7 +19,7 @@
         flex: 0 0 33.3333%; 
     } .gridxs--1of4 > .cell {
         flex: 0 0 25%;
-    } .gridxs--gutters > .cell { 
+    } .grid--gutters > .cell { 
         padding: 10px;
     }
 }
@@ -41,11 +41,11 @@
         flex: 0 0 33.3333%; 
     } .gridsm--1of4 > .cell {
         flex: 0 0 25%;
-    } .gridsm--gutters > .cell { 
+    } .grid--gutters > .cell { 
         padding: 10px;
     }
 }
-@include medium {
+@include md {
     .gridms--hide{
         display: none;
     } .container {
@@ -63,7 +63,7 @@
         flex: 0 0 33.3333%; 
     } .gridmd--1of4 > .cell {
         flex: 0 0 25%;
-    } .gridmd--gutters > .cell { 
+    } .grid--gutters > .cell { 
         padding: 10px;
     }
 }
@@ -85,7 +85,7 @@
         flex: 0 0 33.3333%; 
     } .gridlg--1of4 > .cell {
         flex: 0 0 25%;
-    } .gridlg--gutters > .cell { 
+    } .grid--gutters > .cell { 
         padding: 10px;
     }
 }
@@ -107,7 +107,7 @@
         flex: 0 0 33.3333%; 
     } .gridxl--1of4 > .cell {
         flex: 0 0 25%;
-    } .gridxl--gutters > .cell { 
+    } .grid--gutters > .cell { 
         padding: 10px;
     }
 }
